@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-classes</title>
+    <style>
+        div.test1 {
+            text-align: center;
+            display: inline-block;
+            background-color: #948f8f;
+            height: 200px;
+            width: 200px;
+            color: #000000;
+        }
+        div.test1:hover {
+            background-color: #be0d0d;
+        }
+        /*teste 02*/
+        div.test2 > p {
+            display: none;
+        }
+        div.test2:hover > p {
+            display: block;
+            color: #be0d0d;
+        }
+        div.test2:hover {
+            color: #be0d0d;
+        }
+    </style>
+</head>
+<body>
+    <h1>teste 01</h1>
+    <div class="test1">01</div>
+    <div class="test1">02</div>
+    <div class="test1">03</div>
+    <h1>teste 02</h1>
+    <div class="test2">
+        passe o mouse aqui!!
+        <p>Vá a merda kkkkkkkkkk</p>
+    </div>
+</body>
+</html>

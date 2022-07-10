@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>style css</title>
+    <!--- a tag (*{}) serve pra configuções globais (guando tiver fazendo degradê pra cima ou pra baixo)-->
+    <style>
+        h1 {
+            text-align: center;
+        }
+        div {
+            width: 100%;
+            height: 400px;
+            margin-bottom: 10px;
+        }
+        div#direita {
+            background-image: linear-gradient(to right, #f4ff53, #b6008e);
+        }
+        div#cima {
+            background-image: linear-gradient(to top, #000000, #ff0000);
+        }
+        div#baixo {
+            background-image: linear-gradient(to bottom, #00c7bd, #d3095d);
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando CSS</h1>
+    <h2>cores copiadas dos sites</h2>
+    <p style="color: #1F20FB;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi placeat ad ratione doloribus beatae, vitae, enim libero modi explicabo eum aut facere ducimus, eos perferendis accusamus. Ea consectetur quis fugit.</p>
+    <h2>outro teste</h2>
+    <p style="color: #00ADBF;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, facere? Aliquid quod iusto, nulla blanditiis enim, nobis laudantium illum natus obcaecati sint labore praesentium distinctio dolorem veritatis, a minima? Sunt.</p>
+    <div id="direita">
+        <h1>degradê da direita para esquerda</h1>
+    </div>
+    <div id="cima">
+        <h1>degradê para cima</h1>
+    </div>
+    <div id="baixo">
+        <h1>degradê para baixo</h1>
+    </div>
+</body>
+</html>
