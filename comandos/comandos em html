@@ -2,33 +2,63 @@
 -----------------------------------------------------------------------------------------------------------------------
                                             REGULAGEM DE SITE
 -----------------------------------------------------------------------------------------------------------------------
+max-height = dizer o maximo de altura
 
+min-height = dizer o minimo de altura
+
+max-width = dizer o maximo de largura
+
+min-width = dizer o minimo de largura 
+
+background-size: = regular o tamanho da imagem. vaores mais usados é "contain" e o "cover", contain ele regula e não corta a imagem mas não preenche todo o site; já o cover, ele regula e preenche todo os espaço mas corta a imagem pra regular.
 -----------------------------------------------------------------------------------------------------------------------
                                                   H T M L
 -----------------------------------------------------------------------------------------------------------------------
 body = corpo
+
 h1, h2, h3, h4, h5, h6 = letra de cabeçalho
+
 p = paragrafo
+
 header = cabeçalho
+
 div = divisão
+
 section = corpo segundario
+
 footer = rodapé do corpo
+
 sup = obj emcima
+
 sub = obj embaixo
+
 tag /br = quebra de linha
+
 -----------------------------------------------------------------------------------------------------------------------
                                                    C S S
 -----------------------------------------------------------------------------------------------------------------------
 * {} = quer dizer global
+
 :hover = quando passar por cima
+
 :visited = quando o link já foi visitado
+
 linear-gradient = criar degradê
+
 box-shadom = criar sombra -- parametros (tamanho, cor, tipo de sombra(ex."solid"))
+
 font = tem o parametro ("font-style", "font-weight", "font-size", "font-family")
+
 text-indent = indentação (inicio do paragrafo)
+
 . = idicar uma classe
+
 # = indicar um id
+
 > = filho do indicado (id ou classe)
+
 list-style-type: '' = colocar type na lista (emoji tbm)
-\000A0 = espaço    
+
+\000A0 = espaço
+   
 */
