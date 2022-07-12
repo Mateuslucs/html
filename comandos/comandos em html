@@ -11,6 +11,10 @@ max-width = dizer o maximo de largura
 min-width = dizer o minimo de largura 
 
 background-size: = regular o tamanho da imagem. vaores mais usados é "contain" e o "cover", contain ele regula e não corta a imagem mas não preenche todo o site; já o cover, ele regula e preenche todo os espaço mas corta a imagem pra regular.
+
+background-attachment: = para definir se a imagem fica fixa ou segue a barra de rolagem padrão. valores a ser usados: fixed e scroll.
+
+shorthand de background: = na seguinte sequencia: color > image > position > repeat > [size] > attachment.
 -----------------------------------------------------------------------------------------------------------------------
                                                   H T M L
 -----------------------------------------------------------------------------------------------------------------------
