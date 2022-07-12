@@ -15,6 +15,8 @@ background-size: = regular o tamanho da imagem. vaores mais usados é "contain" 
 background-attachment: = para definir se a imagem fica fixa ou segue a barra de rolagem padrão. valores a ser usados: fixed e scroll.
 
 shorthand de background: = na seguinte sequencia: color > image > position > repeat > [size] > attachment.
+
+centralizar verticalmente = deve colocar a div em posição relativa e a caixa dentro dessa div vai esta em posição absoluta, colocando 50% para esquerda e para cima, depois usamos o parametro "transform" para mexer na posição da caixa, usando o valor "translate" em -50% (indo para esquerda) e -50% (indo para cima).
 -----------------------------------------------------------------------------------------------------------------------
                                                   H T M L
 -----------------------------------------------------------------------------------------------------------------------
@@ -64,5 +66,7 @@ text-indent = indentação (inicio do paragrafo)
 list-style-type: '' = colocar type na lista (emoji tbm)
 
 \000A0 = espaço
+
+:root = criar variavel no css. valor a ser usado para criar uma variavel: "--(variavel): ;"
    
 */
