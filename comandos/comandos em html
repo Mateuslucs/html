@@ -40,6 +40,14 @@ sub = obj embaixo
 
 tag /br = quebra de linha
 
+table = criar tabela
+
+tr = linha da tabela
+
+td = coluna da tabela
+    alinhamento de td = para alinhar na horizontal, usamos o parametro "text-align"; e para vertical usamos o parametro "vertical-align".
+
+
 -----------------------------------------------------------------------------------------------------------------------
                                                    C S S
 -----------------------------------------------------------------------------------------------------------------------
