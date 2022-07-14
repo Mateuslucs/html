@@ -59,6 +59,7 @@ table = criar tabela
     td = coluna da tabela
         alinhamento de td = para alinhar na horizontal, usamos o parametro "text-align"; e para vertical usamos o parametro "vertical-align".
 
+    mesclagem = para mesclar na tabela, basta usar um dos dois parametros: rowspan(para linha) e colspan(para coluna).
 
 
 -----------------------------------------------------------------------------------------------------------------------
