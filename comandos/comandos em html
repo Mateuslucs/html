@@ -42,10 +42,23 @@ tag /br = quebra de linha
 
 table = criar tabela
 
-tr = linha da tabela
+    caption = cabeçalho da tabela
 
-td = coluna da tabela
-    alinhamento de td = para alinhar na horizontal, usamos o parametro "text-align"; e para vertical usamos o parametro "vertical-align".
+    thead = cabeça da tabela
+
+    tbody = corpo da tabela
+
+    tfoot = rodapé da tabela
+
+    th = linha da cabeça da tabela
+
+        fixar a cabeça = primeiro temos que deixar a tabela em posição relativa, depois colomos no "th" um posicionamento de valor "sticky"(colar) e colomos um top de 0px com o seu background-color. 
+
+    tr = linha da tabela
+
+    td = coluna da tabela
+        alinhamento de td = para alinhar na horizontal, usamos o parametro "text-align"; e para vertical usamos o parametro "vertical-align".
+
 
 
 -----------------------------------------------------------------------------------------------------------------------
@@ -56,6 +69,8 @@ td = coluna da tabela
 :hover = quando passar por cima
 
 :visited = quando o link já foi visitado
+
+:nth-child() = podemos usar para pulos de estilo, por exemplo: ":nth-child(odd){ background-color: white;}", esse comando faz com que só os impares recebam a cor branca. Se for usar para pares, basta usar "even", e para pulos, podemos "n" (ex: 3n, pulando de 3 em 3).
 
 linear-gradient = criar degradê
 
