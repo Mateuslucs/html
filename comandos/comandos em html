@@ -61,6 +61,8 @@ table = criar tabela
 
     mesclagem = para mesclar na tabela, basta usar um dos dois parametros: rowspan(para linha) e colspan(para coluna).
 
+    tabela responsiva = basta enveloparmos a tabela com uma div e no css colocar o parametro "ouverflow-x: auto;"
+
 
 -----------------------------------------------------------------------------------------------------------------------
                                                    C S S
