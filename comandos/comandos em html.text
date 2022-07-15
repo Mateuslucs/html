@@ -63,7 +63,9 @@ table = criar tabela
 
     tabela responsiva = basta enveloparmos a tabela com uma div e no css colocar o parametro "ouverflow-x: auto;"
 
+iframe = para mostrar um conteudo de uma pagina num tamanho de 300x150.
 
+    scolling = é para barra de rolagem no iframe, com valores: yes ou no.
 -----------------------------------------------------------------------------------------------------------------------
                                                    C S S
 -----------------------------------------------------------------------------------------------------------------------

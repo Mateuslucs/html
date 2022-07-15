@@ -4,11 +4,7 @@
     // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        {
-            "type": "pwa-chrome",
-            "request": "launch",
-            "name": "Open tab01.html",
-            "file": "c:\\Users\\andre\\Documents\\projetos\\auladeHtml\\html\\exercicios\\tabelas\\tab01.html"
-        }
+        
+        
     ]
 }
