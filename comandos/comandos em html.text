@@ -66,6 +66,16 @@ table = criar tabela
 iframe = para mostrar um conteudo de uma pagina num tamanho de 300x150.
 
     scolling = é para barra de rolagem no iframe, com valores: yes ou no.
+
+form = tag para formulario
+    method = dizer onde os dados vão a aparecer. existe dois valores: get(que a aparece na url do site) e post(que não mostra os dados na url.obs: porem dá para visualizar abrindo o devtools na aba network).
+
+    action = é dizer oq vai fazer com esses dados. pode ser enviado para um arquivo em php.
+
+    autocomplete = dizer se quer ter o site complete para você. valores usados : on ou off.
+
+    required = para n deixar o usuario esquecer de preencher algo importante.
+    
 -----------------------------------------------------------------------------------------------------------------------
                                                    C S S
 -----------------------------------------------------------------------------------------------------------------------
