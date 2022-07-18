@@ -79,6 +79,8 @@ form = tag para formulario
     step = valor usado no input number, que é para dizer de quanto em quanto ele vai contar.
 
     pattern = para criar uma verificação. inicia colocando "^" e termina com "$". E para dizer que numeros, basta colocar "\d" e colocar quantos digitos vai ser com "{}", com a quantidade de numeros dentro.
+
+    radio do input = para marcar só uma opçao.obs: as opções tem que ter o msm name para marcar só uma opção.
 -----------------------------------------------------------------------------------------------------------------------
                                                    C S S
 -----------------------------------------------------------------------------------------------------------------------
