@@ -77,6 +77,8 @@ form = tag para formulario
     required = para n deixar o usuario esquecer de preencher algo importante.
     
     step = valor usado no input number, que é para dizer de quanto em quanto ele vai contar.
+
+    pattern = para criar uma verificação. inicia colocando "^" e termina com "$". E para dizer que numeros, basta colocar "\d" e colocar quantos digitos vai ser com "{}", com a quantidade de numeros dentro.
 -----------------------------------------------------------------------------------------------------------------------
                                                    C S S
 -----------------------------------------------------------------------------------------------------------------------
