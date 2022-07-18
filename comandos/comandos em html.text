@@ -76,6 +76,7 @@ form = tag para formulario
 
     required = para n deixar o usuario esquecer de preencher algo importante.
     
+    step = valor usado no input number, que é para dizer de quanto em quanto ele vai contar.
 -----------------------------------------------------------------------------------------------------------------------
                                                    C S S
 -----------------------------------------------------------------------------------------------------------------------
