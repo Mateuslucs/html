@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>09</title>
+</head>
+<body>
+    <h1>output02</h1>
+    <form action="eu.php" method="post">
+        <p>
+            <label for="ano">ano de nascimento: </label>
+            <input type="number" name="ano" id="ano" min="1950" max="2022" value="2000" oninput="calcidade()"> <br>
+            <label for="idade">sua idade é: </label>
+            <output id="idade"></output>
+        </p>
+    </form>
+</body>
+<script>
+    function calcidade() {
+        let atual = new Date().getFullYear()
+        let ano = document.getElementById("ano")
+        let saida = document.getElementById("idade")
+        saida.innerHTML = Number(atual) - Number(ano.value)
+        console.log('ola')
+    }
+    
+</script>
+</html>
