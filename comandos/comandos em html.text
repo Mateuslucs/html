@@ -17,6 +17,24 @@ background-attachment: = para definir se a imagem fica fixa ou segue a barra de 
 shorthand de background: = na seguinte sequencia: color > image > position > repeat > [size] > attachment.
 
 centralizar verticalmente = deve colocar a div em posição relativa e a caixa dentro dessa div vai esta em posição absoluta, colocando 50% para esquerda e para cima, depois usamos o parametro "transform" para mexer na posição da caixa, usando o valor "translate" em -50% (indo para esquerda) e -50% (indo para cima).
+====================================================================================
+MEDIA QUERY
+
+media-types: 
+
+"print" = estilo para quando for imprimir a pagina. uso correto: <link rel="stylesheet" href="estilo/print.css" media="print">
+
+"screen" = estilo para telas de diversos tamanhos. uso correto: <link rel="stylesheet" href="estilo/telas.css" media="screen">
+
+"all" = estilo para todos. uso correto: <link rel="stylesheet" href="estilo/style.css" media="all">
+
+media-features: (são os filtros dos types)
+
+"portrait" = filto para telas menores. uso correto: <link rel="stylesheet" href="estilo/retrato.css" media="screen and (orientation: portrait)">
+
+"landscape" = filtro pra telas maiores ou telas menores viradas. uso correto: <link rel="stylesheet" href="estilo/retrato.css" media="screen and (orientation: landscape)">
+
+
 -----------------------------------------------------------------------------------------------------------------------
                                                   H T M L
 -----------------------------------------------------------------------------------------------------------------------
