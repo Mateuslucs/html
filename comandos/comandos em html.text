@@ -34,6 +34,7 @@ media-features: (são os filtros dos types)
 
 "landscape" = filtro pra telas maiores ou telas menores viradas. uso correto: <link rel="stylesheet" href="estilo/retrato.css" media="screen and (orientation: landscape)">
 
+@media screen and (min-width: 768px) = para colocar no estilo saparado
 
 -----------------------------------------------------------------------------------------------------------------------
                                                   H T M L
@@ -131,3 +132,7 @@ list-style-type: '' = colocar type na lista (emoji tbm)
 :root = criar variavel no css. valor a ser usado para criar uma variavel: "--(variavel): ;"
    
 */
+================================================================================================================================================
+JS
+
+innerWidth = pra saber o tamanho do corpo do site
